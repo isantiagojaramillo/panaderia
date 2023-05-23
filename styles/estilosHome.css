@@ -28,3 +28,22 @@
     background-position: top center;
     background-attachment: fixed;
 } 
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px 60px;
+    background-color: rgb(143, 138, 132);
+    font-size: 18px;
+    opacity: 0.5;
+    color: black
+}
+
+footer section a{
+    text-decoration: none;
+    color: black;
+}
+footer section a:hover{
+    color: rgb(255, 255, 255);
+}
